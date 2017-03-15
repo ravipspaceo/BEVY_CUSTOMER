@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B76DE6E7-E7C2-442D-A9FD-CFB30C354983</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bevy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>512d5ced-1087-4b23-a28e-cfd701fe3d74++505</key>
+		<string>http://192.168.34.125/usvn-iphone/svn/BevyCustomerApp/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Code/Bevy.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>512d5ced-1087-4b23-a28e-cfd701fe3d74++505</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>512d5ced-1087-4b23-a28e-cfd701fe3d74++505</key>
+		<string>http://192.168.34.125/usvn-iphone/svn/BevyCustomerApp</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.34.125/usvn-iphone/svn/BevyCustomerApp/trunk/Code/Bevy.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>512d5ced-1087-4b23-a28e-cfd701fe3d74++505</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>512d5ced-1087-4b23-a28e-cfd701fe3d74++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BavyCustomer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

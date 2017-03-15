@@ -1,0 +1,18 @@
+background color---242,242,242
+home screen category label----Oswald Stencil--size-60px--color--255,255,255
+header title------Museo Sans 300--size-38px--color--black
+header category title------Museo Sans 500--size-32px--color--black
+header subcategory title----Museo Sans 300--size-28px--color--black
+product title------Museo Sans 300--size-28px--color--black
+product subtag------Museo Sans 100--size-20px--color--83,83,83
+product price------Museo Sans 300--size-20px--color--255,255,255
+yellow grandtotal------Museo Sans 500--size-32px--color--255,211,59
+profile, register,login ----Museo Sans 100--size-28px--color--00,00,00
+
+
+till color-47,218,184
+gray color-83,83,83
+black color-00,00,00
+very light gray-210,210,210
+
+

@@ -1,0 +1,153 @@
+//
+//  Bevy-Prefix.pch
+//  Bevy
+//
+//  Created by CompanyName on 20/12/14.
+//  Copyright (c) 2014 CompanyName. All rights reserved.
+//
+
+#ifndef Bevy_Bevy_Prefix_pch
+#define Bevy_Bevy_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "GlobalManager.h"
+//#import "NPRImageView.h"
+#import "UIImageView+WebCache.h"
+#import "TPKeyboardAvoidingScrollView.h"
+#import "UIAlertView+Blocks.h"
+#import "Validations.h"
+#import "UICustomPicker.h"
+#import "UIDateTimePicker.h"
+#import "MBProgressHUD.h"
+#import "WS_Helper.h"
+#import "WS_Urls.h"
+#import "GlobalUtilityClass.h"
+#import "UIViewController+JASidePanel.h"
+#import "RateView.h"
+#import "UIButton+Badge.h"
+#import "UIAlertView+Blocks.h"
+
+#import "MHFacebookImageViewer.h"
+#import <Google/Analytics.h>
+#import "Flurry.h"
+
+#define STRIPE_PUBLISHABLE_KEY              @"pk_live_A1U8S0ySX0qUc8Yo8sTA8dPg"//@"pk_test_8bHOJEf5D5vvCbYiiCeG2HWv"//@
+
+//#define kGoogleAPIKey                       @"AIzaSyCsx21wSraXUO9DAt0--LAHqIj116yb17M"
+
+//#define kGoogleAPIKey                       @"AIzaSyBeXYlRH-FrUPzfe4CQtDiSue89uEDHC5c"
+//Live Google API
+#define kGoogleAPIKey                       @"AIzaSyCpRn2D5HpKvoPV0fTms__pz0GVMDrureg"
+#define USER_ID                             @"USER_ID"
+#define EMAIL_ADDRESS                       @"EMAIL_ADDRESS"
+#define PASSWORD                            @"PASSWORD"
+
+#define APPLICATION_SETTINGS                @"APPLICATION_SETTINGS"
+#define APPLICATION_FLURRY                  @"FLURRY_ENABLE"
+
+#define REQUIRED_LOCATION_NAME              @"REQUIRED_LOCATION_NAME"
+#define REQUIRED_LATITUDE                   @"REQUIRED_LATITUDE"
+#define REQUIRED_LONGITUDE                  @"REQUIRED_LONGITUDE"
+
+#define USER_LATITUDE                       @"USER_LATITUDE"
+#define USER_LONGITUDE                      @"USER_LONGITUDE"
+
+#define AUTO_LOGIN                          @"AUTO_LOGIN"
+#define BADGE_COUNT                         @"BADGE_COUNT"
+#define PRODUCT_COUNT                       @"PRODUCT_COUNT"
+#define REMAINING_ORDERS                    @"REMAINING_ORDERS"
+#define STORE_ID                            @"STORE_ID"
+#define CART_ID                             @"CART_ID"
+#define DELIVERY_NOTE                       @"DELIVERY_NOTE"
+#define DEVICE_TOKEN                        @"DEVICE_TOKEN"
+
+#define MOBILE_NUMBER                       @"MOBILE_NUMBER"
+
+#define MOBILE_CODE                         @"MOBILE_CODE"
+
+#define STORE_OPEN_STATUS                   @"store_open_status"
+#define STORE_STATUS_MESSAGE                @"STORE_STATUS_MESSAGE"
+#define STORE_STATUS_MESSAGE_TITLE          @"STORE_STATUS_MESSAGE_TITLE"
+
+
+#define STORE_OPEN_CLOSE_MESSAGE            @"store_label"
+#define STORE_CLOSE                         @"Close"
+#define STORE_OPEN                          @"Open"
+
+
+#define STORE_DONT_SHOW_OUTSIDE_ZONE        @"Dont_show_outside_zone"
+#define STORE_DONT_SHOW_CLOSE               @"Dont_show_Close"
+
+
+#define kAppTitle @"Bevy"
+
+#define BEVY_CO                             @"http://www.bevy.co/"
+
+#define FWIDTH_FORMAT @"&w=%.0f"
+
+
+
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+
+#define BasicColor [UIColor colorWithRed:243/255.0 green:127/255.0 blue:33.0/255.0 alpha:1.0];
+//#define BasicGreenColor [UIColor colorWithRed:47.0/255.0 green:218.0/255.0 blue:184.0/255.0 alpha:1.0];
+#define BasicAppThemeColor [UIColor colorWithRed:0.0/255.0 green:185.0/255.0 blue:245.0/255.0 alpha:1.0]
+#define BasicAppTheme_CgColor [UIColor colorWithRed:0.0/255.0 green:185.0/255.0 blue:245.0/255.0 alpha:1.0].CGColor;
+
+#define BasicSeparatorColor    [UIColor colorWithRed:219.0/255.0 green:219.0/255.0 blue:219.0/255.0 alpha:1.0];
+
+#define IS_IOS_7                                    SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")
+#define APPNAME                                     @"Bevy"
+#define LOCATION_CHANGE_TITLE                       @"LOCATION CHANGE"
+
+#define IS_IPHONE_6             ([[UIScreen mainScreen] bounds].size.height == 667.0)
+#define IS_IPHONE_6_PLUS        ([[UIScreen mainScreen] bounds].size.height == 736.0)
+#define IS_IPHONE_4             ([[UIScreen mainScreen] bounds].size.height == 480.0)
+
+
+#define ORDER_TRACE     @"orderTrace"
+#define RUNNING_FIRST   @"RUNNING_FIRST"
+#define LISTVIEW        @"LISTVIEW"
+
+#define FACEBOOK_ACCESSTOKEN @"FACEBOOK_ACCESSTOKEN"
+#define FACEBOOK_USER_DETAILS @"FACEBOOK_USER_DETAILS"
+#define kDidFailError                           @"Weak signal. Please find better reception."
+
+#define kDidFailBError                          @"We are currently performing maintenance, please come back shortly."
+#define kNetworkError @"No internet connection, Please try again later."
+
+#define USER_ID                     @"USER_ID"
+#define iPhoneType ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)?([[UIScreen mainScreen] bounds].size.height):0)
+
+#define kDeviceType                 @"iOS"
+#define kUSER_ID                    [[NSUserDefaults standardUserDefaults] valueForKey:USER_ID]
+
+#define kEmailOrPasswrdWrong        @"The email or password you have entered is incorrect."
+#define kChangePassword             @"Password you have entered is incorrect."
+
+#define PROFILEIMAGE                @"PROFILEIMAGE"
+
+#define APP_STORE_URL               @"https://itunes.apple.com/app/id968991274"
+
+#define TEXT_SMS  @"Thought you might like.. this new app Bevy delivers on-demand alcohol, tobacco and snacks in under 30 minutes. I’m too good to you :) \nDownload Bevy on iOS here: https://itunes.apple.com/app/id968991274"
+
+#define TEXT_EMAIL @"Thought you might like.. this new app Bevy delivers on demand alcohol, snacks and essentials in London in under 30 minutes. Next order’s on you ;) \nDownload the free Bevy app on iOS here: https://itunes.apple.com/app/id968991274"
+
+#define TEXT_FACEBOOK @"An app that delivers on-demand alcohol, tobacco, snacks and essentials right to my door? And in under 30 minutes?! London just got a lot more convenient!"
+
+#define TEXT_TWITTER @"A London app that delivers on demand alcohol, snacks & essentials in under 30 mins? Uh oh!\nhttps://itunes.apple.com/app/id968991274"
+
+#if !defined(DEBUG) || !(TARGET_IPHONE_SIMULATOR)
+#define NSLog(...)
+#endif
+
+
+#endif

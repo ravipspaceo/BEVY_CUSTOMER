@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "512d5ced-1087-4b23-a28e-cfd701fe3d74++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "512d5ced-1087-4b23-a28e-cfd701fe3d74++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "512d5ced-1087-4b23-a28e-cfd701fe3d74++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B76DE6E7-E7C2-442D-A9FD-CFB30C354983",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "512d5ced-1087-4b23-a28e-cfd701fe3d74++505" : "BavyCustomer"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Bevy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Code\/Bevy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.34.125\/usvn-iphone\/svn\/BevyCustomerApp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "512d5ced-1087-4b23-a28e-cfd701fe3d74++505"
+    }
+  ]
+}
